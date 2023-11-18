@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Alexa Contreras">
+    <meta name="description" content="Portafolio de desarrollo web de Alexa Contreras">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Alexa Contreras | Desarrollo Web Front-End</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/icon-pg.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/icon-pg.png" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="https://media.licdn.com/dms/image/D5603AQHEOoK5hFCusA/profile-displayphoto-shrink_200_200/0/1699113182477?e=1705536000&v=beta&t=OdUmk2pSaGq7DgDE4WqzSkJTQdR3ioGexiatYt8GM9g" alt="Foto de Alexa Contreras">
+        <h1>Hola, soy Alexa Contreras</h1>
+        <!--<h2>Desarrollo sitios web y escribo artículos sobre programación.</h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/desktop computer.gif" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Alexa Contreras</h2>
+        <p class="seccion-texto">Soy estudiante de ingeniería en Sistemas Computacionales en el ITTol. Otra parte importante de mi vida son las MMA siendo instructora desde los 13 años descubri una pasión por compartir conocimientos.
+          Actualmente soy becaria en TecnolochicasPro y a su vez instructora del programa Tecnolochicas, juntando dos de mis grandes pasiones:
+          enseñanza y tecnología. 
+        </p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p>Habilidades basicas de HTML y CSS para diseño y desarrollo de páginas web en Front-End.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-negro">HTML</span>
+              <span class="badge text-bg-negro">CSS</span>
+              <span class="badge text-bg-negro">JavaScript</span>
+              <span class="badge text-bg-negro">React</span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Estudiante</p>
+            <p>Estudiante de septimo semestre en el Instituto Tecnologico de Toluca, en la carrera Ingeniería en Sistemas Computacionales.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-negro">HTML</span>
+              <span class="badge text-bg-negro">Bases de datos</span>
+              <span class="badge text-bg-negro">CSS</span>
+              <span class="badge text-bg-negro">Instituto Tecnologico de Toluca</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Becaria en TecnolochicasPro</p>
+            <p>Becaria en el bootcamp de Tecnolochicas PRO, obteniendo nuevos conocimientos sobre desarrollo web.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-negro">Tecnolochicas PRO</span>
+              <span class="badge text-bg-negro">Desarrollo Web</span>
+              <span class="badge text-bg-negro">Python</span>
+            </div>
+          </div>
+
+           <!-- Instructora en tecnolochicas -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Instructora de Tecnolochicas</p>
+            <p>En fundación Televisa por parte de Tecnolochicas contando con las capacitaciones de TC1:Diseño de paginas web y TC2:Desarrollo de aplicaciones móviles.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-negro">Tecnolochicas</span>
+              <span class="badge text-bg-negro">Desarrollo Web</span>
+              <span class="badge text-bg-negro">Programación por bloques</span>
+              <span class="badge text-bg-negro">CSS</span>
+            </div>
+          </div>
+          
+           <!-- Instructora en Dragon's -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Instructora en Dragon's</p>
+            <p>Cinta morada en Jiu-jitsu, cinta blanca en judo, instructora por Chimeyo Combat System, con 8 años de experiencia en el rubro.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-negro">MMA</span>
+              <span class="badge text-bg-negro">Jiu-jitsu</span>
+              <span class="badge text-bg-negro">Kick boxing</span>
+              <span class="badge text-bg-negro">UFC</span>
+              <span class="badge text-bg-negro">Liderazgo</span>
+            </div>
+          </div>
+
+           <!-- Conductora -->
+           <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Conductora Dragon's Fuera de la Jaula</p>
+            <p>Explorando y cumpliendo sueños en otros rubros, pertenezco al grupo de conductores del nuevo programa Dragon's Fuera de la jaula todos los jueves a las 9 pm.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-negro">MMA</span>
+              <span class="badge text-bg-negro">Dragon's</span>
+              <span class="badge text-bg-negro">UFC</span>
+              <span class="badge text-bg-negro">Facebook live</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/Morat.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/Clon-Google.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 2</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/Alexa601/Clon-de-Google.github.io.git" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://alexa601.github.io/Clon-de-Google.github.io/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/BlogAlexa.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 3</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/Alexa601/Blog-Alexa.github.io.git" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://alexa601.github.io/Blog-Alexa.github.io/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- Proyecto 4 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/drg.png" alt="Proyecto 4">
+            <div class="overlay">
+              <p>Proyecto 4</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/Alexa601" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://dragons-cctol.my.canva.site/#inicio" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+          
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-negro">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos testimonios</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/AnaV.jpeg" alt="Foto Ana">
+              <p class="testimonio-texto">La alumna Alexa ha demostrado un notable compromiso en el aula, destacándose por el desarrollo de proyectos de alta calidad que reflejan sus sólidos conocimientos en el ámbito del Frontend, específicamente en HTML y CSS. Además, muestra un compromiso constante con las fechas de entrega y exhibe una notable creatividad en sus trabajos.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Ana Fernanda Gutiérrez Villanueva</p>
+                <p class="cargo">Colaboradora</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/Harumi.jpg" alt="Foto de Nora">
+              <p class="testimonio-texto">Fue una excelente compañera. Dedicada, participativa, con gran interés por aprender y dispuesta a ayudar, excelentes resultados en el desarrollo de páginas web y programación, creativa y perfeccionista con los detalles de sus proyectos.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Harumi Grettell Moreno Becerra</p>
+                <p class="cargo">Colaboradora</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/caro.jpg" alt="Foto de Leonardo">
+              <p class="testimonio-texto">Es una profesional orientada a los resultados con gran capacidad de solución de problemas con ayuda de creatividad y compromiso constante. La cual garantiza una excelente calidad en sus proyectos.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Carolina Nuñez</p>
+                <p class="cargo">Colaboradora</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame para iniciar tu proyecto de desarrollo web y haré que tu visión se vuelva realidad.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="akikoalexamma80@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://github.com/Alexa601" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="www.linkedin.com/in/akiko-alexandra-contreras-cuenca" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/cookies.alexaa/?hl=es-la" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="akikoalexamma80@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Alexa Contreras (2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
